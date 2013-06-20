@@ -1,0 +1,111 @@
+  .login-pane {
+    width: 400px;
+    height: 312px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 9999;
+  }
+  .login-pane p {
+    text-align: center;
+    padding: 10px 0 0;
+    color: #808080;
+    border-top: 1px dotted #b3b3b3;
+  }
+  .login-pane .title {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 2.6em;
+    color: #ff9933;
+    text-shadow: 0 1px 2px #fff;
+    padding: 10px 0;
+  }
+  .login-pane .title strong {
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 20px;
+    color: #236a94;
+    text-shadow: 0 1px 2px #ffffff;
+  }
+  .login-pane h2 {
+    color: #808080;
+    padding: 10px 0 25px;
+    text-align: center;
+    font-size: 1.6em;
+    text-shadow: 0 1px 2px #ffffff;
+  }
+  .login-pane form {
+    padding: 30px 40px;
+    background: url("../img/login-box.png") center -150px repeat-x;
+    border: 1px solid #b3b3b3;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 15px 125px rgba(1, 1, 1, 0.5);
+    -khtml-box-shadow: 0 15px 125px rgba(1, 1, 1, 0.5);
+    -moz-box-shadow: 0 15px 125px rgba(1, 1, 1, 0.5);
+    -ms-box-shadow: 0 15px 125px rgba(1, 1, 1, 0.5);
+    -o-box-shadow: 0 15px 125px rgba(1, 1, 1, 0.5);
+    box-shadow: 0 15px 125px rgba(1, 1, 1, 0.5);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=180, Strength=5);
+  }
+  .login-pane form label {
+    display: none;
+    width: 235px;
+    text-align: right;
+    font-size: 0.9em;
+    color: #808080;
+    padding: 0 0 3px;
+    font-weight: normal;
+    margin: 0 0 0 20px;
+  }
+  .login-pane form input.text,
+  .login-pane form input.password {
+    width: 235px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.2em;
+    float: none;
+  }
+  .login-pane form input.submit {
+    width: 146px;
+    font-size: 1.4em;
+    float: none;
+  }
+  .login-pane form div,
+  .login-pane form div.hover {
+    padding: 0;
+    background: none;
+    border: none;
+  }
+  .login-pane form .login-form div {
+    padding: 5px 0;
+    display: table;
+    margin: 0 auto;
+  }
+  .login-pane form .login-form .logo {
+    padding: 0;
+    text-align: center;
+  }
+  .login-pane form .last {
+    padding: 10px 0;
+    display: block;
+  }
+  .login-pane form .system-time {
+    text-align: center;
+    padding: 0 0 30px;
+  }
+  .login-pane form .system-time span {
+    color: #808080;
+    text-shadow: 0 1px 1px #ffffff;
+  }
+  .accessdenied {
+    -webkit-animation: shake 1s 1 linear;
+    -khtml-animation: shake 1s 1 linear;
+    -moz-animation: shake 1s 1 linear;
+    -ms-animation: shake 1s 1 linear;
+    -o-animation: shake 1s 1 linear;
+    animation: shake 1s 1 linear;
+  }
